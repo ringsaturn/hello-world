@@ -1,3 +1,6 @@
+# Redis push&pop demo
+
+```python
 import redis
 
 client = redis.Redis()
@@ -18,3 +21,5 @@ print(res)
 
 res = client.lpop("test_list_01")
 print(res)
+```
+
