@@ -36,14 +36,19 @@ macOS 下 ZSH 的兼容问题会影响到 VS Code 的插件，
 }
 ```
 
+这里也有一个 VS Code 的 Cargo 配置
+[Cargo 教程 | 菜鸟教程](https://www.runoob.com/rust/cargo-tutorial.html)，
+这里 [`rust/hello-rust/.vscode`](rust/hello-rust/.vscode) 使用了这份配置文件。
+
 ## References
 
 Projects:
 
+- https://github.com/rust-num/num
+- https://github.com/rust-ndarray/ndarray
 - https://pyo3.rs/v0.9.0-alpha.1/
 - https://github.com/PyO3/pyo3
 - https://github.com/PyO3/rust-numpy
-- https://github.com/rust-ndarray/ndarray
 - https://github.com/rust-lang/rls-vscode
 
 Docs:
