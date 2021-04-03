@@ -4,7 +4,7 @@
 # download binary
 curl -O 'https://builds.clickhouse.tech/master/macos/clickhouse' && chmod a+x ./clickhouse
 
-# downloaf server config
+# download server config
 wget "https://raw.githubusercontent.com/ClickHouse/ClickHouse/master/programs/server/users.xml"
 
 # download client config
