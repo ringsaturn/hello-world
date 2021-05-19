@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "./;main";
+
+message Foo {
+    string A = 1;
+    string b = 2;
+}
+
